@@ -10,8 +10,6 @@ public class ProductDto {
     private Double price;
     private String imageUrl;
 
-    public ProductDto(){}
-
     public ProductDto(Long id, String name, String description, Double price, String imageUrl) {
         this.id = id;
         this.name = name;
